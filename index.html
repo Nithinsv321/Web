@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caclulator</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="heading">
+        <h3>Calculator</h3>
+      </div>
+    </div>
+  </header>
+    <main>
+      <div class="main">
+        <div id="splash">MCACalc fx54</div>
+        <div class="screen" id="dispalyScreen">
+          <span  class="display">0</span>
+        </div>
+        <div class="numberpad">
+          <div class="number">
+              <button type="button" class="maintbn" onclick="turnon()">On</button>
+          </div>
+          <div class="number">
+              <button type="button" class="maintbn" onclick="turnoff()">Off</button>
+          </div>
+          <div class="number">
+              <button type="button" class="maintbn" onclick="clearScreen()">Clr</button>
+          </div>
+          <div class="number">
+              MCACalc
+          </div><br>
+          <div class="number">
+              <button type="button" class="button" id="one" onclick="num('1')">1</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="two" onclick="num('2')">2</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="three" onclick="num('3')">3</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" onclick="num('+')">+</button>
+          </div><br>
+          <div class="number">
+              <button type="button" class="button" id="four" onclick="num('4')">4</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="five" onclick="num('5')">5</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="six" onclick="num('6')">6</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" onclick="num('-')">-</button>
+          </div><br>
+          <div class="number">
+              <button type="button" class="button" id="seven" onclick="num('7')">7</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="eight" onclick="num('8')">8</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="nine" onclick="num('9')">9</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" onclick="num('*')">*</button>
+          </div><br>
+          <div class="number">
+              <button type="button" class="button" onclick="num('.')">.</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" id="zero" onclick="num('0')">0</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" onclick="operation('=')">=</button>
+          </div>
+          <div class="number">
+              <button type="button" class="button" onclick="num('/')">/</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
